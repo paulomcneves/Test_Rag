@@ -1,0 +1,18 @@
+# Dados do ChromaDB
+/chroma_db/data/
+
+# Modelos locais (ignora tudo exceto scripts)
+/models/
+!/models/download_model.py
+
+# Variáveis de ambiente
+.env
+.env*
+
+# Cache
+.cache/
+*.cache
+
+# Arquivos temporários
+*.pyc
+__pycache__/
